@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+
+<body>
+    <header>
+        <center>
+            <table border="2px">
+                <tr>
+                    <nav>
+                        <th><a href="index.html" target="_main">Home</a></th>
+                        <th><a href="about.html" target="_main">About</a></th>
+                        <th><a href="gallery.html" target="_main">Gallery</a></th>
+                        <th><a href="media.html" target="_main">Media</a></th>
+                        <th><a href="contact.html" target="_main">Contact</a></th>
+                        <th><a href="login.html" target="_main">Login</a></th>
+                        <th><a href="register.html" target="_main">Register</a></th>
+                        <hr>
+                    </nav>
+                </tr>
+            </table>
+        </center>
+    </header>
+    <main>
+        <center>
+            <h2>Register Page</h2>
+            <hr>
+            <h3>Please register to continue</h3>
+            <p>All the feilds are required.</p>
+            <hr />
+        </center>
+
+        <fieldset style="width: 200px;; margin: auto;">
+            <legend>Register</legend>
+            <br />
+            <form>
+                <label for="name">Full Name:</label><br>
+                <input type="text" placeholder="Name" id="name">
+                <br />
+                <br />
+                <label for="email">Email:</label><br>
+                <input type="text" placeholder="Email" id="email">
+                <br />
+                <br />
+                <label for="password">Password</label><br>
+                <input type="text" placeholder="Password" id="password">
+                <br>
+                <br>
+                <label for="gender">Gender:</label><br />
+                <label for="male">Male:</label>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="female">Female:</label>
+                <input type="radio" name="gender" id="female" value="female">
+
+                <br />
+                <br />
+                <label for="hobbies">Hobbies:</label><br />
+                <label for="music">Music</label>
+                <input type="checkbox" name="music" id="music" checked>
+                <label for="reading">Reading</label>
+                <input type="checkbox" name="reading" id="reading">
+                <label for="art">Art</label>
+                <input type="checkbox" name="art" id="art"><br />
+                <br />
+                <label for="country">Country:</label><br />
+                <select name="country" id="country">
+                    <option value="no-countory">Select</option>
+                    <option value="afghanistan">Afghanistan</option>
+                    <option value="bangladash">Bangladash</option>
+                    <option value="canada">Canada</option>
+                    <option value="denmark">Denmark</option>
+                    <option value="egypt">Egypt</option>
+                    <option value="india">India</option>
+                    <option value="japan">Japan</option>
+                    <option value="pakistan">Pakistan</option>
+
+
+                </select>
+                <br />
+                <br />
+                <label for="dob">DOB:</label><br />
+                <input type="date" name="dob" id="dob" required>
+                <br />
+                <br />
+                <label for="uploadfile">Upload your photo:</label>
+                <input type="file" name="chose file" id="uploadfile">
+                <br>
+                <br>
+                <center><input type="submit" value="Submit">
+                    <input type="reset" value="Reset All">
+                </center>
+                <br>
+                <nav>
+                    <a href="login.html">Already a user?</a>
+                </nav>
+                <br>
+                <small>Note: Your information will be kept private.</small>
+
+
+                <p><strong>Important:</strong> Fill all fields correctly.</p>
+
+
+            </form>
+        </fieldset>
+
+
+        </center>
+    </main>
+    <hr>
+    <footer>
+        <center> &copy; 2025 All Rights Reserved.</center>
+    </footer>
+</body>
+
+</html>
